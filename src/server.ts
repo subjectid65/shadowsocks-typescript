@@ -10,12 +10,12 @@ export function main(): void {
   console.log(utils.version);
   const configFromArgs = utils.parseArgs(true);
   let configPath = 'config.json';
-  if (configFromArgs?.config_file) {
-    configPath = configFromArgs.config_file;
-  } else {
-    utils.info('no config file found.');
-    process.exit(1);
-  }
+   // //if (configFromArgs?.config_file) {
+    // // configPath = configFromArgs.config_file;
+  // // } else {
+  // //   utils.info('no config file found.');
+  // //   process.exit(1);
+  // // }
   if (!fs.existsSync(configPath)) {
     configPath = path.resolve(__dirname, 'config.json');
     if (!fs.existsSync(configPath)) {
