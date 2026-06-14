@@ -2,6 +2,7 @@
   "imports": {
     "path": "node:path",
          "fs": "node:fs",
-        "net": "node:net"
+        "net": "node:net",
+        "crypto":"node:crypto"
   }
 }
