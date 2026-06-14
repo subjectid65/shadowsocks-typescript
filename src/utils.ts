@@ -1,5 +1,5 @@
 import * as util from 'node:util';
-import assert from 'assert'; 
+import { assert } from "https://deno.land";
 import pack from '../package.json' assert { type: 'json' };
 
 export const version = "" + pack.name + " v" + pack.version;
