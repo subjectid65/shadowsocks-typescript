@@ -1,4 +1,5 @@
 import * as util from 'node:util';
+import assert from 'assert'; 
 import pack from '../package.json' assert { type: 'json' };
 
 export const version = "" + pack.name + " v" + pack.version;
