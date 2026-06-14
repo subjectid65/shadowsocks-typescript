@@ -3,6 +3,8 @@
     "path": "node:path",
          "fs": "node:fs",
         "net": "node:net",
-        "crypto":"node:crypto"
+        "crypto":"node:crypto",
+         "assert":"node:assert"
+    
   }
 }
